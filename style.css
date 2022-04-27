@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.card {
+    color: chartreuse;
+    display: grid;
+    place-items: center;
+    row-gap: 5rem;
+}
+
+.heading {
+    background: black;
+    font-size: 5rem;
+}
+.counter {
+    width:40rem;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
